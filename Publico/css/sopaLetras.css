@@ -1,0 +1,58 @@
+.contSopaLetras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sopaLetras {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 0 0 5%;
+}
+
+#sopaLetras{
+    user-select: none;
+}
+
+#sopaLetras td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#btn-reiniciar{
+    margin: 10px;
+}
+
+.encontrada {
+    border: 2px solid #efb810;
+}
+.a0 {
+    background-color: #aeeb6dc6;
+}
+.a1 {
+    background-color: #757fe887;
+}
+.a2 {
+    background-color: #be6fc7bf;
+}
+.a3 {
+    background-color: #76e2ec;
+}
+.a4 {
+    background-color: #ed8585;
+}
+
+.seleccionada {
+    background-color: rgba(96, 169, 237, 0.476);
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+/* Estilos para la línea de selección */
+#lineaSeleccion {
+    position: absolute;
+    background-color: red;
+    pointer-events: none;
+}
