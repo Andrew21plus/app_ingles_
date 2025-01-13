@@ -8,7 +8,8 @@ date_default_timezone_set($user_timezone);
 // Obtener la zona horaria actualmente configurada
 $current_timezone = date_default_timezone_get();
 
-
+// Imprimir la zona horaria
+echo "<script>console.log('La zona horaria actual es: " . $current_timezone . "');</script>";
 
 header('Cache-Control: no-cache, no-store, must-revalidate');
 header('Pragma: no-cache');
