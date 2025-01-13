@@ -12,5 +12,5 @@ $con = mysqli_connect($host, $user, $pass, $db, $port);
 if (!$con) {
     die('Error de conexión: ' . mysqli_connect_error());
 }
-echo 'Conexión exitosa a la base de datos.';
+
 ?>
