@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
 include_once '../Modelo/zona_horaria.php';
 include_once '../Config/conexion.php';
@@ -102,6 +100,8 @@ if (!isset($_SESSION['code_executed'])) {
     }
  
     ?>
+<!DOCTYPE html>
+<html lang="en">
       <script>
         document.addEventListener('DOMContentLoaded', function() {
           <?php
