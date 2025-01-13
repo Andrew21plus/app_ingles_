@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <?php
 include_once '../Modelo/zona_horaria.php';
 include_once '../Config/conexion.php';
